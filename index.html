@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uthopia Streetwear</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: white;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: #000;
+      }
+
+      header img {
+        max-height: 80px;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 40px 0 10px;
+        font-size: 32px;
+      }
+
+      .produtos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 40px;
+      }
+
+      .produto {
+        background-color: #111;
+        padding: 20px;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+        text-align: center;
+      }
+
+      .produto:hover {
+        transform: scale(1.03);
+      }
+
+      .produto img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+      }
+
+      .produto h2 {
+        font-size: 18px;
+        margin: 10px 0 5px;
+      }
+
+      .produto p {
+        color: #aaa;
+        font-size: 14px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        background-color: #000;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo.jpeg" alt="Uthopia Logo" />
+    </header>
+
+    <h1>Drop Em Breve</h1>
+
+    <section class="produtos">
+      <div class="produto">
+        <img src="https://source.unsplash.com/400x400/?streetwear,1" alt="Produto 1" />
+        <h2>Camiseta Oversized</h2>
+        <p>Em breve</p>
+      </div>
+      <div class="produto">
+        <img src="https://source.unsplash.com/400x400/?urban,hoodie" alt="Produto 2" />
+        <h2>Moletom Preto</h2>
+        <p>Em breve</p>
+      </div>
+      <div class="produto">
+        <img src="https://source.unsplash.com/400x400/?cap,street" alt="Produto 3" />
+        <h2>Boné Uthopia</h2>
+        <p>Em breve</p>
+      </div>
+      <div class="produto">
+        <img src="https://source.unsplash.com/400x400/?fashion,jacket" alt="Produto 4" />
+        <h2>Jaqueta Uthopia</h2>
+        <p>Em breve</p>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2025 Uthopia Streetwear. Todos os direitos reservados.
+    </footer>
+  </body>
+</html>
